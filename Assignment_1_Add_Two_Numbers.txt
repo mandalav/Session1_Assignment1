@@ -1,0 +1,15 @@
+package com.venkat.addnum;
+
+public class AddTwoNumbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a = 10;
+		float b = 0.5f;
+		int sum = 0;
+		 
+		sum = (int)(a + b); //explicit type casting
+		System.out.println(sum);
+	}
+
+}
